@@ -17,11 +17,10 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndk {
-            abiFilters "armeabi-v7a", "x86_64"
+            abiFilters "armeabi-v7a", "arm"
         }
         python {
             version "3.8"
-            buildPython "C:/Users/azm52/AppData/Local/Programs/Python/Python311/python.exe"
             pip {
                 // A requirement specifier, with or without a version number:
                 install "instaloader"
