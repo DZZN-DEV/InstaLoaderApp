@@ -24,6 +24,7 @@ android {
             pip {
                 // A requirement specifier, with or without a version number:
                 install "instaloader"
+                install "git+https://github.com/DZZN-DEV/scdl.git"
             }
         }
     }
